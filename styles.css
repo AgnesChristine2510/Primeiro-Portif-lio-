@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'josefin Sans', sans-serif;
+}
+
+.background {
+    background-image: url('./eufundo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 {
+    color: #ffff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+span {
+    color: deeppink;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 30px 30px;
+    list-style: none;
+
+}
+
+nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold ;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: deeppink;
+    transform: scale(1.2);
+}
+
+.btn{
+    background-color: deeppink;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transforms .10s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+h4 {
+    color: #ffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: #ffff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: #ffff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.Container-btn form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+
+.container-btn form input:first-child {
+    display: inline-block;
+    width: %;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.container-btn form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: deeppink;
+    color: #ffff;
+
+}
+
+.container-btn form input:last-child:hover {
+    transform: scale(1.2);
+}
